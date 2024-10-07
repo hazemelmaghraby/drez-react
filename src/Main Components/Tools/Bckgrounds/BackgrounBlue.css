@@ -1,0 +1,52 @@
+/* src/Background.css */
+
+.background-containerr {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #001f3f;
+    /* Dark blue background */
+    overflow: hidden;
+    z-index: -1;
+    /* Ensure the background is behind other content */
+}
+
+/* Common styles for blurred circles */
+.blurred-circlee {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.5;
+    /* Slightly reduced opacity for a softer effect */
+    filter: blur(200px);
+}
+
+/* Specific styles for different colored circles with dark blue shades */
+.bluee {
+    width: 600px;
+    height: 600px;
+    background: linear-gradient(135deg, #0b99ff, #5b7cff);
+    /* Darker blue shades */
+    top: -100px;
+    left: -100px;
+}
+
+.pinkk {
+    width: 800px;
+    height: 800px;
+    background: linear-gradient(135deg, #27496d, #0097e6);
+    /* Dark blue with a hint of lighter blue */
+    bottom: -150px;
+    right: -150px;
+}
+
+.yelloww {
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(135deg, #34495e, #2f3640);
+    /* Muted blue-gray tones */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

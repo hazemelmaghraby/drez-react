@@ -1,0 +1,50 @@
+.home-section {
+    padding: 60px 20px;
+    /* background: linear-gradient(to right, #1e3c72, #002c5c); */
+    color: white;
+}
+
+.text-container {
+    padding: 20px;
+}
+
+.welcome-text {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.company-name {
+    color: #ffcc00;
+    /* Highlight color */
+}
+
+.description-text {
+    color: beige;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    max-width: 600px;
+    /* Control width for better readability */
+}
+
+.Hprofile-img {
+    width: 100%;
+    max-width: 600px;
+    /* Limit max width */
+    height: auto;
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    /* Add shadow for depth */
+}
+
+@media (max-width: 768px) {
+    .welcome-text {
+        font-size: 2rem;
+        /* Smaller font size on smaller screens */
+    }
+
+    .description-text {
+        font-size: 1rem;
+        /* Smaller font size */
+    }
+}

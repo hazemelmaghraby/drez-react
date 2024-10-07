@@ -1,0 +1,48 @@
+/* src/Background.css */
+
+.background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    /* Black background */
+    overflow: hidden;
+    z-index: -1;
+    /* Ensure the background is behind other content */
+}
+
+/* Common styles for blurred circles */
+.blurred-circle {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.6;
+    filter: blur(200px);
+}
+
+/* Specific styles for different colored circles */
+.blue {
+    width: 600px;
+    height: 600px;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    top: -100px;
+    left: -100px;
+}
+
+.pink {
+    width: 800px;
+    height: 800px;
+    background: linear-gradient(135deg, #cf2103, #ec0027);
+    bottom: -150px;
+    right: -150px;
+}
+
+.yellow {
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(135deg, #fddb92, #d1fdff);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

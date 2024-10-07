@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    z-index: 1000;
+    align-items: center;
+    /* Center items vertically */
+}
+
+.navbar-brand {
+    color: aliceblue;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    /* Center image and text vertically */
+}
+
+.navbar-brand:hover {
+    color: orange;
+    text-decoration: underline;
+
+}
+
+.navimg {
+    width: 30px;
+    /* Set a specific width */
+    margin-right: 8px;
+}
+
+.nav-link {
+    letter-spacing: 0.6px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: aliceblue;
+    /* Ensure color is applied here too */
+    border-top: 0.1875rem solid transparent;
+
+}
+
+
+.nav-link:hover {
+    color: #f7f7f7;
+    border-top: 0.1875rem solid orange;
+
+}
+
+.navbar-toggler {
+    z-index: 1000;
+    /* Ensure it's above other elements */
+}
+
+div#navbarSupportedContent {
+    z-index: 1000;
+    background-color: #212529;
+}
+
+.navbar-nav li {
+    display: flex;
+    /* Align items in li */
+    align-items: center;
+    /* Center links vertically */
+}
+
+.navbar-nav li a {
+    margin: 0 12px;
+    /* Use shorthand for margin */
+}
+
+.navbar-nav li a.active,
+.navbar-nav li a:focus {
+    border-top: 0.1875rem solid red;
+    color: #fff;
+}
+
+.reg {
+    margin-right: 7px;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 2px solid white;
+    width: 90px;
+    transition: 0.2s ease-in-out;
+}
+
+.reg a {
+    text-decoration: none !important;
+    color: white;
+}
+
+.reg:hover {
+    border: 2px solid orange;
+    transform: scale(1.1);
+}
+
+.reg:focus {
+    border: 2px solid red;
+}
+
+.reg a:hover {
+    text-decoration: underline;
+}

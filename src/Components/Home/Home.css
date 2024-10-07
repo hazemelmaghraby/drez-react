@@ -1,0 +1,83 @@
+.header-wraper {
+    position: relative;
+    background: url(./../img/Mainimg1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    z-index: 2;
+}
+
+.main-section {
+    display: flex;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 100px;
+    z-index: 3;
+
+}
+
+.home-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Black with 50% opacity */
+    z-index: 1;
+    /* Make sure it's on top of the background */
+}
+
+.main-section h1 {
+    letter-spacing: 2px;
+    color: orange;
+    text-transform: uppercase;
+
+}
+
+/* Animtion Text */
+
+.animation-text {
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+.contact-btn {
+    font-size: 20px;
+    margin-right: 7px;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 2px solid white;
+    width: 150px;
+    height: 45px;
+    transition: 0.2s ease-in-out;
+}
+
+.contact-btn-link {
+    text-decoration: none !important;
+    color: white;
+    transition: 0.2s ease-in-out;
+
+}
+
+.contact-btn:hover {
+    border: 2px solid orange;
+    transform: scale(1.1);
+
+}
+
+.contact-btn:focus {
+    border: 2px solid red;
+}
+
+.contact-btn-link:hover {
+    transform: scale(1.1);
+
+}

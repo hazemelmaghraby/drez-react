@@ -1,0 +1,23 @@
+.dropdown-menu {
+    /* Optional: style the dropdown */
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.dropdown-item {
+    color: #333;
+    /* Adjust text color */
+}
+
+.dropdown-item:hover {
+    background-color: #f1f1f1;
+    /* Hover effect */
+}
+
+.rounded-circle {
+    border-radius: 50%;
+    /* Ensure the image is round */
+}
+
+.mainNavbar {
+    height: 74px;
+}

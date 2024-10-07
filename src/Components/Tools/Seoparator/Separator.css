@@ -1,0 +1,13 @@
+.separator {
+    margin: 20px 0;
+    /* Space around the separator */
+    border-radius: 5px;
+    /* Rounded corners */
+    transition: all 0.3s ease;
+    /* Smooth transition for hover effects */
+}
+
+.separator:hover {
+    transform: scaleY(1.1);
+    /* Slightly grow on hover */
+}

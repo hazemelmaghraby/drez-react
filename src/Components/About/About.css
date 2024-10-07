@@ -1,0 +1,62 @@
+.desc-sec {
+    color: aliceblue;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.about-me {
+    font-size: 18px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.separator {
+    height: 4px;
+    background-color: #007bff;
+    margin: 20px 0;
+    max-width: 1500px;
+    width: 100%;
+}
+
+.custom-progress {
+    position: relative;
+    height: 50px;
+    /* Adjust height */
+    background-color: #e0e0e0;
+    /* Light background */
+    border-radius: 25px;
+    /* Rounded corners */
+    overflow: hidden;
+    /* Clip the inner fill */
+    box-shadow: 0 2px 10px rgba(255, 9, 9, 0.582);
+    /* Subtle shadow */
+}
+
+.progress-fill {
+    height: 100%;
+    transition: width 1s ease-in-out, background-color 1s ease-in-out;
+    /* Smooth transition */
+    border-radius: 25px;
+    /* Match outer container */
+    display: flex;
+    align-items: center;
+    /* Center text vertically */
+    justify-content: center;
+    /* Center text horizontally */
+    font-size: 1.2rem;
+    /* Text size */
+    color: white;
+    /* Text color */
+}
+
+.skill-label {
+    font-size: 1.1rem;
+    /* Label size */
+    margin-bottom: 5px;
+    /* Space between label and progress bar */
+}

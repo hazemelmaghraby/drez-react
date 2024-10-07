@@ -1,0 +1,52 @@
+.services {
+    color: aliceblue;
+    padding: 50px 0;
+    /* Add padding for spacing */
+}
+
+.servicesTitle {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.frontendimg {
+    border-radius: 8px;
+    margin-bottom: 20px;
+    /* Add space below image */
+}
+
+/* Responsive title divider */
+.title-divider {
+    height: 4px;
+    background-color: #007bff;
+    margin: 10px auto;
+    /* Center the divider */
+    width: 10%;
+    transform: none;
+    /* Reset transformation */
+}
+
+.card {
+    background-color: #1a1a1a;
+    /* Dark background for the card */
+    color: #fff;
+    /* White text inside the card */
+    border-radius: 12px;
+    /* Slight border radius */
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    /* Slight scaling on hover */
+}
+
+.card-body {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .title-divider {
+        width: 30%;
+    }
+}

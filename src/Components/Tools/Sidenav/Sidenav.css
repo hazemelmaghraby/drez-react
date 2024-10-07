@@ -1,0 +1,51 @@
+.sidenav {
+    height: 100%;
+    width: 250px;
+    /* Adjust width as needed */
+    position: fixed;
+    /* Fixed position */
+    top: 0;
+    left: 0;
+    background-color: #343a40;
+    /* Match with your main navbar */
+    color: white;
+    padding: 15px;
+    overflow-y: auto;
+    /* Enable scrolling if needed */
+}
+
+.sidenav h2 {
+    color: #f8f9fa;
+    /* Light color for the header */
+}
+
+.sidenav ul {
+    list-style-type: none;
+    /* Remove bullet points */
+    padding: 0;
+}
+
+.sidenav ul li {
+    margin: 10px 0;
+    /* Space between items */
+}
+
+.sidenav ul li a {
+    color: white;
+    /* Text color */
+    text-decoration: none;
+    /* Remove underline */
+    padding: 10px;
+    display: block;
+    /* Make the link fill the list item */
+}
+
+.sidenav ul li a:hover {
+    background-color: #495057;
+    /* Darker background on hover */
+}
+
+.sidenav-footer {
+    margin-top: auto;
+    /* Push buttons to the bottom */
+}

@@ -1,0 +1,68 @@
+.myteam {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.myteam img {
+    width: 150px;
+    /* Set the desired width */
+    height: 150px;
+    /* Set the desired height */
+    overflow: hidden;
+    /* Ensures the image stays within the bounds */
+    border-radius: 50%;
+    /* Makes it circular */
+    transform: translate(50%, -5%);
+}
+
+.card-container {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 123, 255, 0.5);
+    /* Shadow effect */
+    padding: 20px;
+    /* Padding inside the card */
+    margin: 0px;
+    /* Margin around the card */
+    background-color: black;
+    /* Ensure background matches card body */
+    color: white;
+    /* Text color */
+    ;
+    transition: box-shadow 0.5s ease-in-out, transform 0.5s ease-in-out;
+    /* Add transform to the transition */
+    /* Smooth transition for shadow */
+}
+
+.card-container:hover {
+    box-shadow: 0 4px 20px rgba(255, 0, 0, 0.7);
+    /* Change shadow color on hover */
+    transform: scale(1.05);
+    /* Scale up the card */
+}
+
+
+.card-container img {
+    border-radius: 10px;
+    /* Rounded corners for the image */
+    margin-bottom: 10px;
+    /* Space between image and text */
+}
+
+.description {
+    height: auto;
+    width: 50%;
+    transform: translate(34%, -100%);
+    left: 43;
+    top: 1;
+    display: inline-block;
+    position: absolute;
+    margin-top: 10px;
+    background-color: rgba(0, 123, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+}
